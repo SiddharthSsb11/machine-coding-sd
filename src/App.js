@@ -1,9 +1,9 @@
-import Star from "./Star/Star";
+import PaginationApp from "./Pagination/PaginationApp";
 
 function App() {
   return (
     <div>
-      <Star />
+      <PaginationApp />
     </div>
   );
 }

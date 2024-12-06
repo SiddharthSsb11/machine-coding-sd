@@ -20,11 +20,7 @@ const Star = () => {
         return (
           <span
             key={index}
-            className={`star ${
-              (hoverValue == 0 && rating > index) || hoverValue > index
-                ? "gold"
-                : ""
-            }`}
+            className={`star ${index < (hoverValue || rating) ? "gold" : ""}`}
             onClick={() => handleRating(index)}
             onMouseEnter={() => handleHover(index)}
             onMouseLeave={() => setHoverValue(0)}
