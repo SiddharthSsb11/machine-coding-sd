@@ -1,7 +1,9 @@
+import Star from "./Star/Star";
+
 function App() {
   return (
     <div>
-      <h1>React machine</h1>
+      <Star />
     </div>
   );
 }

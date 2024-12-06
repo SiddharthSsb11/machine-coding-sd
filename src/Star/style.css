@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-height: 100svh;
+}
+
+.star {
+    font-size: 4rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.gold {
+    color: gold;
+
+}
