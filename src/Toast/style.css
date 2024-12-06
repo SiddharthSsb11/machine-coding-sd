@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.toasts {
+    margin-bottom: 1rem;
+    animation: slide 1s 1;
+    border-radius: 0.5rem;
+    text-align: center;
+    height: 1rem;
+    width: 8rem;
+    background-color: yellow;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    align-items: center;
+    border: 1px solid black;
+
+    span {
+        cursor: pointer;
+
+    }
+}
+
+.button-container {
+    align-self: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 2rem;
+    width: 50%;
+}
+
+.success {
+    background-color: #46af46;
+}
+
+.error {
+    background-color: #df5239;
+}
+
+.warning {
+    background-color: #fca200;
+}
+
+.info {
+    background-color: #5899fe;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
