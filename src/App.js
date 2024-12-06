@@ -1,9 +1,9 @@
 import PaginationApp from "./Pagination/PaginationApp";
-
+import Otp from "./OTP/Otp";
 function App() {
   return (
     <div>
-      <PaginationApp />
+      <Otp />
     </div>
   );
 }
