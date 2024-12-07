@@ -1,9 +1,8 @@
-import PaginationApp from "./Pagination/PaginationApp";
-import Otp from "./OTP/Otp";
+import Carousel from "./Carousel/Carousel";
 function App() {
   return (
     <div>
-      <Otp />
+      <Carousel />
     </div>
   );
 }
