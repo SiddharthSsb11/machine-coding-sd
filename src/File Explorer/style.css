@@ -1,0 +1,39 @@
+.container {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    cursor: pointer;
+    padding: 2px 8px;
+    height: 40px;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.inputContainer>span {
+    margin: 4px 0;
+    padding-left: 12px;
+}
+
+.inputContainer__input {
+    margin: 6px 0 0px 0;
+    padding: 5px;
+    display: flex;
+    border: 1px solid lightgray;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+.file {
+    margin-top: 5px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
