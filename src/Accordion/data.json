@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1a2b3c",
+        "question": "What is React?",
+        "answer": "React is a JavaScript library for building user interfaces, primarily used to create single-page applications."
+    },
+    {
+        "id": "4d5e6f",
+        "question": "How does JavaScript work in the browser?",
+        "answer": "JavaScript runs in the browser's JavaScript engine, where it is interpreted or compiled to perform dynamic tasks on web pages."
+    },
+    {
+        "id": "7g8h9i",
+        "question": "What is the purpose of Node.js?",
+        "answer": "Node.js allows JavaScript to run on the server-side, making it possible to build scalable network applications using JavaScript."
+    },
+    {
+        "id": "0j1k2l",
+        "question": "What is an API?",
+        "answer": "API stands for Application Programming Interface, and it enables different software applications to communicate with each other."
+    },
+    {
+        "id": "3m4n5o",
+        "question": "What are the benefits of using Git?",
+        "answer": "Git allows for version control, helping developers manage and track changes in their codebase, collaborate effectively, and revert changes if needed."
+    },
+    {
+        "id": "6p7q8r",
+        "question": "What is REST?",
+        "answer": "REST stands for Representational State Transfer, an architectural style for designing networked applications, relying on stateless communication between client and server."
+    }
+]
