@@ -1,8 +1,8 @@
-import Carousel from "./Carousel/Carousel";
+import UsePreviousApp from "./machine/Use Previous/UsePreviousApp";
 function App() {
   return (
     <div>
-      <Carousel />
+      <UsePreviousApp />
     </div>
   );
 }

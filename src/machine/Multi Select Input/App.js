@@ -47,9 +47,9 @@ function App() {
     );
     setSelectedUsers(updatedUsers);
 
-    const updatedEmails = new Set(selectedUserSet);
-    updatedEmails.delete(user.email);
-    setSelectedUserSet(updatedEmails);
+    const updatedUserEmails = new Set(selectedUserSet); //copying
+    updatedUserEmails.delete(user.email);
+    setSelectedUserSet(updatedUserEmails);
   };
 
   const handleKeyDown = (e) => {
@@ -60,7 +60,7 @@ function App() {
     ) {
       const lastUser = selectedUsers[selectedUsers.length - 1];
       handleRemoveUser(lastUser);
-      setSuggestions([]);
+      setSuggestions([]); // till here
     } else if (e.key === "ArrowDown" && suggestions?.users?.length > 0) {
       e.preventDefault();
       setActiveSuggestion((prevIndex) =>
@@ -106,7 +106,7 @@ function App() {
           <ul className="suggestions-list">
             {suggestions?.users?.map((user, index) => {
               return !selectedUserSet.has(user.email) ? (
-                <li
+                <li //avoid classname
                   className={index === activeSuggestion ? "active" : ""}
                   key={user.email}
                   onClick={() => handleSelectUser(user)}

@@ -1,0 +1,8 @@
+.progress {
+    height: 25px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 8px;
+    width: 100%;
+    background-color: green;
+}

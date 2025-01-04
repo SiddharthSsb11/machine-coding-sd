@@ -1,0 +1,25 @@
+body {
+    padding: 50 50;
+    background-color: azure;
+}
+
+/* .outer-circle {
+    background: conic-gradient(blue 180deg, rgb(228, 225, 225) 0deg);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+.inner-circle {
+    background-color: rgb(255, 255, 255);
+    width: 460px;
+    height: 460px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
